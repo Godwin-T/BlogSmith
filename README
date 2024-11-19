@@ -1,0 +1,17 @@
+# BlogSmith
+
+BlogSmith is an automated blog post generator that takes user input and crafts a comprehensive, well-structured blog post based on the provided content. The tool leverages powerful language models to create content that can be integrated into various applications. This repository includes a Flask API and a Streamlit interface for ease of use, as well as a Docker deployment option for running BlogSmith in a containerized environment.
+
+## Features
+- **Input-to-Blog Generation**: Converts user input into full-length blog posts.
+- **Flask API**: Exposes an API endpoint for integration with other applications.
+- **Streamlit Interface**: Provides an interactive web app for user-friendly blog generation.
+- **Docker Deployment**: Supports containerized deployment for easy and consistent setup.
+- **Customizable via Environment Variables**: Specify API keys and other configuration through `.env` files.
+
+## Installation and Setup
+
+### Prerequisites
+- Python 3.8 or higher
+- Docker (for containerized deployment)
+- Streamlit and Flask installed via `pip`
